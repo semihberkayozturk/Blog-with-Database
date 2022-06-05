@@ -1,2 +1,4 @@
 # Daily-Journal
-A personal blog where you can share your blogpost.
+My personal blog site. 
+
+Note: It's not finished yet.
