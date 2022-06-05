@@ -1,9 +1,15 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-h1 {
+h1,
+h3 {
     font-family: source code pro, monospace;
 }
 
