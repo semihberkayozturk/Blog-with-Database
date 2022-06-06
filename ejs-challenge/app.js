@@ -6,8 +6,8 @@ const ejs = require("ejs");
 const _ = require("lodash");
 
 const homeStartingContent = "Hello Everyone I'm Semih, and in this personal website, I do share blog posts about technology. You can also learn more about me and my projects up above. Thank you for your interest !"
-const aboutContent = "Hello ! I'm Semih, and I live in Istanbul/Turkey. Currently I study Management Information Systems at Istanbul Bilgi University. On the other hand, I mostly spend my time working on Back-end Web Development and its components with various materials such as Harvard's CS50, freecodecamp, Postman and so forth.\nIf you want to learn more about me, check out my LinkedIn profile or send me an e-mail. Please free to contact me. Thank You."
-const contactContent = "I've been developing projects with Python, HTML, CSS, JavaScript and Node.js for a while. Take a look at some of my projects and its GitHub links."
+const aboutContent = "Hello ! I'm Semih, and I live in Istanbul/Turkey. Currently I study Management Information Systems at Istanbul Bilgi University. On the other hand, I mostly spend my time working on Back-end Web Development and its components with various materials such as Harvard's CS50, freecodecamp, Postman and so forth.\nIf you want to learn more about me, check out my LinkedIn profile or send me an e-mail. Please feel free to contact me. Thank You."
+const contactContent = "I've been developing projects with Python, HTML, CSS, JavaScript and Node.js for a while. Take a look at some of my projects and its GitHub links. If you want see all of my projects, visit my GitHub page. Thank You."
 
 const app = express();
 
