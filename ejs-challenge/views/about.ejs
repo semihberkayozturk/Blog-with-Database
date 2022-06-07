@@ -5,11 +5,17 @@
     <p>
         <%=aboutContent%>
     </p>
+
     <a href="https://www.linkedin.com/in/semihberkayozturk/">
-        <img href="https://www.linkedin.com/in/semihberkayozturk/" src="linkedin.png" style="width:4%;margin-left: 48%;" />
+        <img id="d-in" src="linkedin.png" style="width:4%;margin-left: 48%;" />
     </a>
     <a href="mailto:ssemihberkay@gmail.com">
         <img href="mailto:ssemihberkay@gmail.com" src="email.png" style="width:4%;margin-left: 48%;" />
     </a>
-
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
     <%- include("partials/footer"); -%>

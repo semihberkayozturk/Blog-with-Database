@@ -18,7 +18,18 @@
                 <li id="home"><a href="/">HOME</a></li>
                 <li id="about"><a href="/about">ABOUT ME</a></li>
                 <li id="contact"><a href="/contact">PROJECTS</a></li>
+                <li id="dark_icon">
+                    <i onclick="myFunction()">
+                        <img class="dark" src="dark_icon.png" style="width:30px;padding-top: 6px;">
+                    </i>
+                </li>
             </ul>
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>
         </div>
     </nav>
 

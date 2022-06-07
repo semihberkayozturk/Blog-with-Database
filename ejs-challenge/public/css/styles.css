@@ -29,7 +29,7 @@ p {
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     background-color: #DDDDDD;
 }
 
@@ -54,4 +54,27 @@ p {
     margin-top: 25px;
     font-size: 12px;
     color: #fff;
+}
+
+.dark-mode {
+    background-color: #112B3C;
+    color: white;
+}
+
+.dark {
+    display: inline-flex;
+    margin-left: 2%;
+    transition: transform .2s;
+}
+
+.dark:hover {
+    transform: scale(1.5);
+}
+
+button {
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
 }
