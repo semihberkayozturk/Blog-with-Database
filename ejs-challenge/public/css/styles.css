@@ -38,7 +38,7 @@ p {
 }
 
 .footer-padding {
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 
 .footer {
@@ -52,13 +52,17 @@ p {
 
 .footer p {
     margin-top: 25px;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
 }
 
 .dark-mode {
     background-color: #112B3C;
-    color: white;
+    color: #DDDDDD;
+}
+
+.bright-mode {
+    background-color: white;
 }
 
 .dark {
@@ -77,4 +81,8 @@ button {
     cursor: pointer;
     overflow: hidden;
     outline: none;
+}
+
+#post-section {
+    white-space: pre-line;
 }
