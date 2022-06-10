@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semih Berkay Öztürk</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,18 +20,29 @@
                 <li id="home"><a href="/">HOME</a></li>
                 <li id="about"><a href="/about">ABOUT ME</a></li>
                 <li id="contact"><a href="/contact">PROJECTS</a></li>
-                <li id="dark_icon">
-                    <i onclick="myFunction()">
-                        <img class="dark" src="dark_icon.png" style="width:30px;padding-top: 6px;">
-                    </i>
-                </li>
+                <i id="moonToggle" class="bi bi-moon-fill"></i>
+
             </ul>
-            <script>
-                function myFunction() {
-                    var element = document.body;
-                    element.classList.toggle("dark-mode");
-                }
+            <script defer>
+                const toggle = document.getElementById('moonToggle')
+                const body = document.querySelector('body');
+
+                toggle.addEventListener('click', function() {
+                    this.classList.toggle('bi-moon-fill');
+                    if (this.classList.toggle('bi-brightness-high-fill')) {
+                        body.style.background = '#112B3C';
+                        body.style.color = '#DDDDDD';
+                        body.style.transition = '1s';
+
+                    } else {
+                        toggle.class = "bi-brightness-high-fill";
+                        body.style.background = 'white';
+                        body.style.color = 'black';
+                        body.style.transition = "1s";
+                    };
+                });
             </script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
         </div>
     </nav>
 
