@@ -1,9 +1,9 @@
-<%- include("partials/header"); -%>
+<%- include("partials/header") -%>
 
     <h1>
         <%=title%>
     </h1>
     <p>
-        <%=content%>
+        <%- content.replace(/\&+/g, "&amp;").replace(/\<+/g, "&lt;").replace(/\>+/g, "&gt;").replace(/\"+/g, "&quot;").replace(/\'+/g, "&#39;").replace(/\n+/g, "<br>") %>
     </p>
     <%- include("partials/footer")-%>

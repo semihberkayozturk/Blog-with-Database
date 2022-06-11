@@ -92,3 +92,7 @@ i {
     color: #112B3C;
     transition: transform .2s;
 }
+
+#post-section {
+    white-space: pre-wrap;
+}
