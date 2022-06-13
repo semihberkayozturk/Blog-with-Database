@@ -27,19 +27,19 @@ app.get("/", function(req, res) {
     })
 })
 
-app.get("/contact", function(req, res) {
+app.get("/contact", (req, res) => {
     res.render("contact", { contactContent: contactContent });
 })
 
-app.get("/about", function(req, res) {
+app.get("/about", (req, res) => {
     res.render("about", { aboutContent: aboutContent });
 })
 
-app.get("/yaz", function(req, res) {
+app.get("/yaz", (req, res) => {
     res.render("compose");
 })
 
-app.post("/yaz", function(req, res) {
+app.post("/yaz", (req, res) => {
     const input = {
         title: req.body.postTitle,
         content: req.body.postBody
@@ -62,6 +62,6 @@ app.get("/posts/:postName", (req, res) => {
 });
 
 
-app.listen(3000, function() {
+app.listen(3000, () => {
     console.log("Server started on port 3000");
 });

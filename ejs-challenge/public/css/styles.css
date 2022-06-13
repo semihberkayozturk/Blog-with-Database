@@ -66,16 +66,6 @@ p {
     background-color: white;
 }
 
-.dark {
-    display: inline-flex;
-    margin-left: 2%;
-    transition: transform .2s;
-}
-
-.dark:hover {
-    transform: scale(1.5);
-}
-
 button {
     background-repeat: no-repeat;
     border: none;
